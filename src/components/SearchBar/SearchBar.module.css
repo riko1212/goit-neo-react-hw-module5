@@ -1,0 +1,24 @@
+.searchBarContainer {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+
+  .searchInput {
+    width: 500px;
+  }
+
+  .submitBtn {
+    background-color: black;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    .searchIcon {
+      fill: white;
+    }
+  }
+}

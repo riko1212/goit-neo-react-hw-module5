@@ -1,0 +1,23 @@
+.header {
+  background-color: black;
+
+  .navigationContainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+
+    .link {
+      color: white;
+      font-weight: bold;
+      font-size: larger;
+      text-decoration: none;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}

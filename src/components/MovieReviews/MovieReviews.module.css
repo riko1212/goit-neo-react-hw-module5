@@ -1,0 +1,16 @@
+.reviewsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 100px;
+
+  .reviewItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .boldText {
+      font-weight: bold;
+    }
+  }
+}
